@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.card{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 0.25rem;
+    transform: translateX(-100px);
+    transition: 400ms;
+    opacity: 0;
+
+}
+
+.card.show{
+    transform: translateX(0);
+    opacity: 1;
+}
