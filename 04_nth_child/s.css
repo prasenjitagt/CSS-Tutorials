@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .child:nth-last-child(2){
+    color: red;
+} */
+/* li:nth-child(odd){
+    color: green;
+} */
+/* li:nth-child(even){
+    color: blueviolet;
+} */
+
+
+/* .child:nth-child(3n+3){
+    color: red;
+} */
